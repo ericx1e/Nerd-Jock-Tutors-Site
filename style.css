@@ -8,8 +8,8 @@ body {
 
 .container {
     width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(215,255,255,0.9), rgba(255, 255, 255, 0.6)), url(assets/background5.jpg);
+    /* height: 100vh; */
+    background-image: linear-gradient(rgba(215, 255, 255, 0.9), rgba(255, 255, 255, 0.6)), url(assets/background5.jpg);
     /* background-image: url(assets/stack-of-books-against-blue-background.jpg); */
     background-attachment: fixed;
     background-position: center;
@@ -17,8 +17,60 @@ body {
     background-size: cover;
     padding-left: 5%;
     padding-right: 5%;
+    padding-bottom: 4%;
+    padding-top: 4%;
     box-sizing: border-box;
-    margin-top: 70px;
+    margin-top: 65px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .4);
+}
+
+.bridge {
+    width: 100%;
+    /* height: 100vh; */
+    /* background-image: linear-gradient(rgba(215, 255, 255, 0.9), rgba(255, 255, 255, 0.6)), url(assets/background5.jpg); */
+    /* background-image: url(assets/stack-of-books-against-blue-background.jpg); */
+    /* background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* padding-left: 5%;
+    padding-right: 5%; */
+    padding: 5%;
+    box-sizing: border-box;
+    /* margin-top: 65px; */
+    /* position: relative; */
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .4);
+}
+
+.container-2 {
+    margin-top: 4px;
+    width: 100%;
+    /* height: 100vh; */
+    background-image: linear-gradient(rgba(215, 255, 220, 0.9), rgba(255, 255, 255, 0.6)), url(assets/background4.jpg);
+    /* background-image: url(assets/stack-of-books-against-blue-background.jpg); */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5%;
+    box-sizing: border-box;
+    /* margin-top: 65px; */
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .4);
+}
+
+.container-3 {
+    margin-top: 4px;
+    width: 100%;
+    /* height: 100vh; */
+    background-image: linear-gradient(rgba(255, 255, 220, 0.9), rgba(255, 255, 255, 0.6)), url(assets/background2.jpg);
+    /* background-image: url(assets/stack-of-books-against-blue-background.jpg); */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5%;
+    box-sizing: border-box;
+    /* margin-top: 65px; */
 }
 
 .logo {
@@ -31,35 +83,37 @@ body {
 }
 
 .navbar {
-    position: fixed;
     margin-left: -5%;
-    margin-top: -70px;
+    /* margin-top: -65px-4%; */
+    margin-top: -9%;
     padding: 10px;
-    height: 6%;
+    height: 7%;
     width: 100%;
     display: flex;
     align-items: center;
-    background-color: rgba(215,250,255);
+    background-color: rgba(215, 250, 255);
+    position: fixed;
 }
 
 .navbar_shadow {
-    position: fixed;
     margin-left: -5%;
-    margin-top: -70px;
+    /* margin-top: -65px-4%; */
+    margin-top: -9%;
     padding: 10px;
-    height: 6%;
+    height: 7%;
     width: 100%;
     display: flex;
     align-items: center;
-    background-color: rgba(215,255,255);
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.4);
+    background-color: rgba(215, 250, 255);
+    position: fixed;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .4);
 }
 
 .menu-icon {
     width: 30px;
     cursor: pointer;
     margin-left: 60px;
-} 
+}
 
 nav {
     flex: 1;
@@ -75,7 +129,8 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #000;
-    font-size: 20px;
+    font-weight: bold;
+    font-size: 23px;
 }
 
 button {
@@ -95,5 +150,9 @@ button {
 }
 
 h1 {
-    /* font-size: xx-large; */
+    font-size: xx-large;
+}
+
+p {
+    font-size: x-large;
 }
