@@ -9,18 +9,18 @@ body {
 .container {
     width: 100%;
     /* height: 100vh; */
-    background-image: linear-gradient(rgba(215, 255, 255, 0.9), rgba(255, 255, 255, 0.6)), url(assets/background5.jpg);
+    background-image: linear-gradient(rgba(215, 255, 255, 1), rgba(255, 255, 255, 0.6)), url(assets/background5.jpg);
     /* background-image: url(assets/stack-of-books-against-blue-background.jpg); */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 4%;
-    padding-top: 4%;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 70px;
+    padding-top: 90px;
     box-sizing: border-box;
-    margin-top: 65px;
+    /* margin-top: 170px; */
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .4);
 }
 
@@ -35,7 +35,7 @@ body {
     background-size: cover; */
     /* padding-left: 5%;
     padding-right: 5%; */
-    padding: 5%;
+    padding: 70px;
     box-sizing: border-box;
     /* margin-top: 65px; */
     /* position: relative; */
@@ -52,7 +52,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 5%;
+    padding: 70px;
     box-sizing: border-box;
     /* margin-top: 65px; */
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .4);
@@ -68,8 +68,9 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 5%;
+    padding: 70px;
     box-sizing: border-box;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .4);
     /* margin-top: 65px; */
 }
 
@@ -83,28 +84,23 @@ body {
 }
 
 .navbar {
-    margin-left: -5%;
-    /* margin-top: -65px-4%; */
-    margin-top: -9%;
-    padding: 10px;
-    height: 7%;
+    padding: 15px;
+    /* padding-right: 25px; */
+    height: 70px;
     width: 100%;
     display: flex;
     align-items: center;
-    background-color: rgba(215, 250, 255);
+    background-color: rgba(215, 255, 255);
     position: fixed;
 }
 
 .navbar_shadow {
-    margin-left: -5%;
-    /* margin-top: -65px-4%; */
-    margin-top: -9%;
-    padding: 10px;
-    height: 7%;
+    padding: 15px;
+    height: 70px;
     width: 100%;
     display: flex;
     align-items: center;
-    background-color: rgba(215, 250, 255);
+    background-color: rgba(215, 255, 255);
     position: fixed;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .4);
 }
@@ -137,7 +133,7 @@ button {
     /* width: 30px; */
     cursor: pointer;
     margin-left: 60px;
-    margin-right: 20px;
+    margin-right: 40px;
     width: 120px;
     color: #fff;
     font-size: 16px;
@@ -155,4 +151,21 @@ h1 {
 
 p {
     font-size: x-large;
+}
+
+.footer {
+    text-align: center;
+    font-size: xx-large;
+    /* height: 200px; */
+    padding: 40px;
+    background-image: linear-gradient(to bottom right, rgba(254, 254, 174, 0.7), rgba(127, 232, 255, 0.5));
+}
+
+a {
+    text-decoration: none;
+
+}
+
+i {
+    padding: 20px;
 }
