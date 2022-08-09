@@ -1,5 +1,7 @@
 html {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-family:  */
+    scroll-behavior: smooth;
 }
 
 body {
@@ -9,7 +11,7 @@ body {
 .container {
     width: 100%;
     /* height: 100vh; */
-    background-image: linear-gradient(rgba(215, 255, 255, 1), rgba(255, 255, 255, 0.6)), url(assets/background5.jpg);
+    background-image: linear-gradient(rgba(215, 255, 255, 1), rgba(255, 255, 255, 0.3)), url(assets/background5.jpg);
     /* background-image: url(assets/stack-of-books-against-blue-background.jpg); */
     background-attachment: fixed;
     background-position: center;
@@ -36,6 +38,7 @@ body {
     /* padding-left: 5%;
     padding-right: 5%; */
     padding: 70px;
+    padding-top: 20px;
     box-sizing: border-box;
     /* margin-top: 65px; */
     /* position: relative; */
@@ -46,13 +49,14 @@ body {
     margin-top: 4px;
     width: 100%;
     /* height: 100vh; */
-    background-image: linear-gradient(rgba(215, 255, 220, 0.9), rgba(255, 255, 255, 0.6)), url(assets/background4.jpg);
+    background-image: linear-gradient(rgba(215, 255, 220, 0.9), rgba(255, 255, 255, 0.3)), url(assets/background4.jpg);
     /* background-image: url(assets/stack-of-books-against-blue-background.jpg); */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 70px;
+    padding-top: 20px;
     box-sizing: border-box;
     /* margin-top: 65px; */
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .4);
@@ -69,6 +73,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 70px;
+    padding-top: 20px;
     box-sizing: border-box;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .4);
     /* margin-top: 65px; */
@@ -90,7 +95,8 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
-    background-color: rgba(215, 255, 255);
+    /* background-color: rgba(215, 255, 255); */
+    background-image: linear-gradient(to bottom, rgba(254, 254, 174), rgba(215, 255, 255));
     position: fixed;
 }
 
@@ -100,7 +106,7 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
-    background-color: rgba(215, 255, 255);
+    background-image: linear-gradient(to bottom, rgba(254, 254, 174), rgba(215, 255, 255));
     position: fixed;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .4);
 }
@@ -131,22 +137,41 @@ nav ul li a {
 
 button {
     /* width: 30px; */
+    font-weight: bold;
     cursor: pointer;
     margin-left: 60px;
     margin-right: 40px;
-    width: 120px;
-    color: #fff;
+    width: 150px;
+    /* height: 40px; */
+    color: #000;
     font-size: 16px;
     padding: 12px 0;
-    background-color: #000;
+    /* background-color: #000; */
+    background-image: linear-gradient(to bottom right, rgb(238, 125, 246), rgb(255, 204, 137));
     border: 0;
     border-radius: 20px;
     outline: none;
     /* margin-top: 30px; */
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .4);
+}
+
+.title {
+    font-size: 120px;
+    text-align: center;
+}
+
+section {
+    scroll-margin-top: 5rem;
 }
 
 h1 {
+    /* font-size: xx-large; */
     font-size: xx-large;
+    text-align: center;
+}
+
+h2 {
+    font-size: x-large;
 }
 
 p {
@@ -166,6 +191,22 @@ a {
 
 }
 
-i {
-    padding: 20px;
+.footer i {
+    padding: 30px;
+}
+
+table {
+    font-size: x-large;
+    padding-top: 30px;
+}
+
+td {
+    padding-right: 40px;
+    vertical-align: top;
+    text-align: left;
+}
+
+.bridge i {
+    padding-left: 20px;
+    padding-right: 20px;
 }
