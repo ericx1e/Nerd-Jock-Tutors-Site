@@ -183,7 +183,7 @@ button {
 }
 
 .title {
-    font-size: 60px;
+    font-size: 80px;
     margin: 90px;
     text-align: center;
 }
@@ -342,6 +342,15 @@ h1 {
     min-width: 300px;
     text-align: center;
     transform: rotate(-7deg);
+    margin: 2%;
+}
+
+.wrapper3 {
+    width: 300px;
+    min-width: 300px;
+    /* height: 400px; */
+    text-align: center;
+    transform: rotate(-2deg);
 }
 
 .polaroid {
@@ -415,4 +424,5 @@ h1 {
 
 .polaroid-container {
     display: flex;
+    justify-content: center;
 }
